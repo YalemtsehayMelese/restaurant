@@ -1,0 +1,6 @@
+for background colors "uicolors.app"
+for color gradiant "colordrop.io"
+for wave "css-generators.com"
+rem: means npx/16
+#6c5f44 bgcolor
+background: linear-gradient(102deg, #6C5F44 41%,#D7CDBF 70%); color gradiant

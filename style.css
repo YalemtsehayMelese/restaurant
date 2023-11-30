@@ -1,0 +1,212 @@
+/*reset*/
+*{
+    
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Be Vietnam Pro', sans-serif;
+     font-family: 'Orbitron', sans-serif;
+     font-family: 'Poppins', sans-serif;
+
+}
+
+html,body{
+
+    scroll-behavior: smooth;
+    height: 100%;
+}
+img,i,a{
+    display: block;
+    
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin-inline: auto;
+}
+.even-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem;
+}
+.logo{
+    /* padding-top: 3px; */
+    width: 6.5rem;
+}
+.primery-nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.primery-nav ul li{
+    padding-top: 1.5rem;
+}
+.primery-nav ul li a{
+    color: rgb(107, 69, 69);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.primery-nav ul li::after{
+ content: "";
+ width: 0;
+ height: 2px;
+ display: block;
+ background-color: #e28e3e;
+ transition: 0.5s;
+}
+.primery-nav ul li:hover:after{
+    width: 100%;
+}
+/* showcase */
+.show-case{
+background: linear-gradient(102deg, #6C5F44 41%,#D7CDBF 70%);
+color:white
+}
+.show-case h1{
+    font-size: 3rem;   
+}
+.show-case img{
+    padding-left: 3.5rem;  
+}
+p{
+    font-weight: lighter;
+    padding: 1.6rem 0;
+    line-height: 1.7;
+}
+button{
+    padding: 10px 25px;
+    background-color:#a2a576;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 0.9rem;
+}
+button:hover{
+    background-color: #d1d7bf;
+    color: #3e551f;
+    cursor: pointer;
+}
+/* our product */
+.title{
+   text-align: center; 
+}
+.title h1{
+    color:rgb(94, 5, 5);
+    font-size:2rem;
+}
+
+.img-wrapper{
+width: 570px;
+height: 570px;
+border-radius: 0 40% 30% 40%;
+overflow: hidden;
+transition: 0.5s ease-in-out;
+} 
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-wrapper:hover{
+    transform: scale(1.1);
+}
+.first-product{
+    background: #d0d3d4;
+    margin-bottom: 2rem;
+   
+}
+.middle-product{
+    background: linear-gradient(270deg, #CB9F55 0%,rgba(255, 153, 17, 0.92) 100%);
+}
+.space{
+    padding: 1rem 0;
+}
+.products{
+    padding: 2rem;
+}
+
+
+
+/* about us */
+.aboute{
+    background: linear-gradient(114deg, #BBD2C5 0%,#536976 60%,#292E49 100%);
+    color: white;
+    --mask:
+    radial-gradient(55.34px at 50% 76.50px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
+    radial-gradient(55.34px at 50% -46.5px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
+    radial-gradient(55.34px at 50% calc(100% - 76.50px),#000 99%,#0000 101%) calc(50% - 60px) 100%/120px 51% repeat-x,
+    radial-gradient(55.34px at 50% calc(100% + 46.50px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+.aboute img{
+    padding:1rem;
+}
+/* contact us */
+form{
+    background: #C08042EB;
+    border-radius: 40px;
+    padding: 2rem;
+    margin: 2rem;
+}
+label{
+    font-weight: 400;
+    color:rgb(66, 6, 6);;
+}
+.inputs{
+    width: 25rem;
+    height: 2.5rem;
+    border: solid brown;
+    border-radius: 14px;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+.textarea-fiald{
+    height: 9rem;
+    padding-top: 0.625rem;
+}
+.contacts{
+    background: linear-gradient(102deg, #6C5F44 41%,#D7CDBF 70%);
+    border-radius: 30px;
+    padding: 2rem;
+    display: grid;
+    place-content: center;
+    width: 25rem;
+}
+i{
+    color: white;
+}
+span{
+    padding-left: 1rem;
+}
+/* footer */
+footer{
+    background: #470a0a;
+    padding: 2rem;
+}
+.four-column{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+ul li a{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+h3{
+    color: white;
+    display: inline;
+}
